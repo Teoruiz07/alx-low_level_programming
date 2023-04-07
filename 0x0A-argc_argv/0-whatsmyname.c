@@ -10,9 +10,7 @@
 
 int main(int argc, char *argv[])
 {
-	char *progname = basename(argv[0]);
-
-	printf("My name is: %s\n", progname);
+	printf("%s\n", argv[argc - 1]);
 	return (0);
 }
 
