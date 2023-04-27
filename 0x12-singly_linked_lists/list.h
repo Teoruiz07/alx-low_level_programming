@@ -6,18 +6,18 @@
 #include <string.h>
 
 /**
- * struct list_c - singly linked list
+ * struct list_s - singly linked list
  * @str: string - (malloc'ed string)
  * @length: string length
  * @nex: points to next node
  *
  */
 
-typedef struct list_c
+typedef struct list_s
 {
 	char *str;
 	unsigned int length;
-	struct list_c *nex;
+	struct list_s *nex;
 } list_t;
 
 size_t print_list(const list_t *h);
